@@ -66,7 +66,6 @@ stressplot(dat.bc.nmds)
 ## ordination distance
 ## Now using the binary version of Jaccard
 dat.jb.nmds <- metaMDS(datt, k = 2, trymax = 100, distance = "jaccard", 
-                       binary = T)
 ordiplot(dat.jb.nmds, type = "t", display = "sites")
 ## you can use cex = 0.6 to make text smaller
 ## Why do we see quadrants collapsing into each other?
